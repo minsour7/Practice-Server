@@ -9,6 +9,7 @@ namespace ServerCore
     class Session
     {
         // TEST
+        var test = false;
         Socket _socket;
         int _disconnected = 0;
 
