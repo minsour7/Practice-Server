@@ -8,8 +8,7 @@ namespace ServerCore
 {
     class Session
     {
-        // TEST
-        var test = false;
+        // 깃허브 테스트 
         Socket _socket;
         int _disconnected = 0;
 
