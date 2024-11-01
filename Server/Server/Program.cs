@@ -8,6 +8,7 @@ using ServerCore;
 
 namespace Server
 {
+    // 깃허브 테스트 
     class Knight
     {
         public int hp;
@@ -18,7 +19,6 @@ namespace Server
 
     class GameSession : Session
     {
-        
         public override void OnConnected(EndPoint endPoint)
         {
             Console.WriteLine($"OnConnected  : {endPoint}");
