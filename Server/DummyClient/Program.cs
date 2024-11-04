@@ -22,6 +22,7 @@ namespace DummyClient
             Packet packet = new Packet() { size = 4, packetId = 7 };
 
             // 보낸다
+            // next 
             for (int i = 0; i < 5; i++)
             {
                 ArraySegment<byte> openSegment = SendBufferHelper.Open(4096);
