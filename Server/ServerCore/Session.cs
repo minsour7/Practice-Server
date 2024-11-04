@@ -2,15 +2,12 @@
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
 using System.Threading;
 
 namespace ServerCore
 {
     public abstract class PacketSessio : Session
     {
-
         public static readonly int HeaderSize = 2;
         public sealed override int OnRecv(ArraySegment<byte> buffer)
         {

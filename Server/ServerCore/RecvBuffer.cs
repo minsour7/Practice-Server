@@ -1,14 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ServerCore
 {
-
-
     public class RecvBuffer
     {
-
         ArraySegment<byte> _buffer;
         int _readPos;
         int _writePos;
