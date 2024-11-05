@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uMeOArNxhzosFlXzh6FZ/LNmXUD7GRirYcUYj7BlTAVFX7gZjMbE3YGjOdWrFHXov7btKLhhO4tZUTxvvUm5mA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rlaal\\Desktop\\Practice Server\\Server\\PacketGenerator\\PacketGenerator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rlaal\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.31\\microsoft.netcore.app.host.win-x64.3.1.31.nupkg.sha512"
+  ],
+  "logs": []
+}
