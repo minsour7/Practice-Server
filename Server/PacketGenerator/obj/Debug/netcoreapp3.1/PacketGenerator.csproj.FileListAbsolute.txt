@@ -12,3 +12,9 @@ C:\Users\rlaal\Desktop\Practice Server\Server\PacketGenerator\obj\Debug\netcorea
 C:\Users\rlaal\Desktop\Practice Server\Server\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.dll
 C:\Users\rlaal\Desktop\Practice Server\Server\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.pdb
 C:\Users\rlaal\Desktop\Practice Server\Server\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.genruntimeconfig.cache
+C:\Users\rlaal\Desktop\Practice Server\Server\PacketGenerator\bin\netcoreapp3.1\PacketGenerator.exe
+C:\Users\rlaal\Desktop\Practice Server\Server\PacketGenerator\bin\netcoreapp3.1\PacketGenerator.deps.json
+C:\Users\rlaal\Desktop\Practice Server\Server\PacketGenerator\bin\netcoreapp3.1\PacketGenerator.runtimeconfig.json
+C:\Users\rlaal\Desktop\Practice Server\Server\PacketGenerator\bin\netcoreapp3.1\PacketGenerator.runtimeconfig.dev.json
+C:\Users\rlaal\Desktop\Practice Server\Server\PacketGenerator\bin\netcoreapp3.1\PacketGenerator.dll
+C:\Users\rlaal\Desktop\Practice Server\Server\PacketGenerator\bin\netcoreapp3.1\PacketGenerator.pdb

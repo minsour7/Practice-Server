@@ -1,6 +1,5 @@
 ﻿using System;
 using System.IO;
-using System.Security.Cryptography.X509Certificates;
 using System.Xml;
 
 namespace PacketGenerator
@@ -8,16 +7,23 @@ namespace PacketGenerator
     class Program
     {
         static string genPackets;
+        static ushort packId;
+        static string packetEnums;
+
         static void Main(string[] args)
         {
-
+            string pdlPath = "../PDL.xml"
+;
             XmlReaderSettings settings = new XmlReaderSettings()
             {
                 IgnoreComments = true,
                 IgnoreWhitespace = true
             };
 
-            using (XmlReader r = XmlReader.Create("PDL.xml", settings))
+            if (args.Length >= 1)
+                pdlPath = args[0];
+
+            using (XmlReader r = XmlReader.Create(pdlPath, settings))
             {
                 r.MoveToContent();
 
@@ -29,7 +35,8 @@ namespace PacketGenerator
                 }
             }
 
-            File.WriteAllText("GenPackets.cs", genPackets);
+            string fileText = string.Format(PacketFormat.fileFormat, packetEnums, genPackets);
+            File.WriteAllText("GenPackets.cs", fileText);
         }
         public static void PerserPacket(XmlReader r)
         {
@@ -51,6 +58,7 @@ namespace PacketGenerator
 
             Tuple<string, string, string> t = ParseMembers(r);
             genPackets += string.Format(PacketFormat.packetFormat, packetName, t.Item1, t.Item2, t.Item3);
+            packetEnums += string.Format(PacketFormat.packetEnumFormat, packetName, ++packId) + Environment.NewLine + "\t";
         }
 
         // {1} 멤버 변수들
@@ -88,6 +96,12 @@ namespace PacketGenerator
                 string memberType = r.Name.ToLower();
                 switch (memberType)
                 {
+                    case "byte":
+                    case "sbyte":
+                        memberCode += string.Format(PacketFormat.memberFormat, memberType, memberName);
+                        readCode += string.Format(PacketFormat.readByteFormat, memberName, memberType);
+                        writeCode += string.Format(PacketFormat.writeByteFormat, memberName, memberType);
+                        break;
                     case "bool":
                     case "short":
                     case "ushort":
@@ -178,7 +192,7 @@ namespace PacketGenerator
             if (string.IsNullOrEmpty(input))
                 return "";
 
-            return input[0].ToString().ToUpper()+input.Substring(1);
+            return input[0].ToString().ToUpper() + input.Substring(1);
         }
 
         public static string FirstCharToLower(string input)

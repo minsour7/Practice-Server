@@ -15,7 +15,6 @@ C:\Users\rlaal\Desktop\루키즈 서버\Server\ServerCore\obj\Debug\netcoreapp3.
 C:\Users\rlaal\Desktop\Practice Server\Server\ServerCore\bin\Debug\netcoreapp3.1\ServerCore.deps.json
 C:\Users\rlaal\Desktop\Practice Server\Server\ServerCore\bin\Debug\netcoreapp3.1\ServerCore.dll
 C:\Users\rlaal\Desktop\Practice Server\Server\ServerCore\bin\Debug\netcoreapp3.1\ServerCore.pdb
-C:\Users\rlaal\Desktop\Practice Server\Server\ServerCore\obj\Debug\netcoreapp3.1\ServerCore.csproj.AssemblyReference.cache
 C:\Users\rlaal\Desktop\Practice Server\Server\ServerCore\obj\Debug\netcoreapp3.1\ServerCore.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\rlaal\Desktop\Practice Server\Server\ServerCore\obj\Debug\netcoreapp3.1\ServerCore.AssemblyInfoInputs.cache
 C:\Users\rlaal\Desktop\Practice Server\Server\ServerCore\obj\Debug\netcoreapp3.1\ServerCore.AssemblyInfo.cs
