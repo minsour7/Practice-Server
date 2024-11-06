@@ -1,0 +1,14 @@
+C:\Users\rlaal\Desktop\Practice Server\Server\PacketGenerator\bin\PacketGenerator.exe
+C:\Users\rlaal\Desktop\Practice Server\Server\PacketGenerator\bin\PacketGenerator.deps.json
+C:\Users\rlaal\Desktop\Practice Server\Server\PacketGenerator\bin\PacketGenerator.runtimeconfig.json
+C:\Users\rlaal\Desktop\Practice Server\Server\PacketGenerator\bin\PacketGenerator.runtimeconfig.dev.json
+C:\Users\rlaal\Desktop\Practice Server\Server\PacketGenerator\bin\PacketGenerator.dll
+C:\Users\rlaal\Desktop\Practice Server\Server\PacketGenerator\bin\PacketGenerator.pdb
+C:\Users\rlaal\Desktop\Practice Server\Server\PacketGenerator\obj\Debug\PacketGenerator.csproj.AssemblyReference.cache
+C:\Users\rlaal\Desktop\Practice Server\Server\PacketGenerator\obj\Debug\PacketGenerator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rlaal\Desktop\Practice Server\Server\PacketGenerator\obj\Debug\PacketGenerator.AssemblyInfoInputs.cache
+C:\Users\rlaal\Desktop\Practice Server\Server\PacketGenerator\obj\Debug\PacketGenerator.AssemblyInfo.cs
+C:\Users\rlaal\Desktop\Practice Server\Server\PacketGenerator\obj\Debug\PacketGenerator.csproj.CoreCompileInputs.cache
+C:\Users\rlaal\Desktop\Practice Server\Server\PacketGenerator\obj\Debug\PacketGenerator.dll
+C:\Users\rlaal\Desktop\Practice Server\Server\PacketGenerator\obj\Debug\PacketGenerator.pdb
+C:\Users\rlaal\Desktop\Practice Server\Server\PacketGenerator\obj\Debug\PacketGenerator.genruntimeconfig.cache
