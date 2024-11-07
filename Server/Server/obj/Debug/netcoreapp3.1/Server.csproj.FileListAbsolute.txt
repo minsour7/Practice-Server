@@ -14,3 +14,4 @@ C:\Users\rlaal\Desktop\Practice Server\Server\Server\obj\Debug\netcoreapp3.1\Ser
 C:\Users\rlaal\Desktop\Practice Server\Server\Server\obj\Debug\netcoreapp3.1\Server.dll
 C:\Users\rlaal\Desktop\Practice Server\Server\Server\obj\Debug\netcoreapp3.1\Server.pdb
 C:\Users\rlaal\Desktop\Practice Server\Server\Server\obj\Debug\netcoreapp3.1\Server.genruntimeconfig.cache
+C:\Users\rlaal\Desktop\Practice Server\Server\Server\obj\Debug\netcoreapp3.1\Server.csproj.AssemblyReference.cache

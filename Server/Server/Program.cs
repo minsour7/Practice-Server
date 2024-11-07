@@ -9,11 +9,10 @@ namespace Server
     class Program
     {
         static Listener _listener = new Listener();
+        public static GameRoom Room = new GameRoom();
 
         static void Main(string[] args)
         {
-            PacketManager.Instance.Register();
-
             // DNS
             string host = Dns.GetHostName();
             IPHostEntry ipHost = Dns.GetHostEntry(host);
@@ -23,7 +22,7 @@ namespace Server
             // 문지기 
             Socket listenSocket = new Socket(endPoint.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
 
-            _listener.init(endPoint, () => { return new ClientSession(); });
+            _listener.init(endPoint, () => { return SessionManager.Instance.Generate(); });
 
             Console.WriteLine("Listening ...");
 
