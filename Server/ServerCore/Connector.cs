@@ -50,6 +50,7 @@ namespace ServerCore
             }
             else
             {
+                // TODO 
                 Console.WriteLine($"OnConnectCompleted Failed : {args.SocketError}");
             }
         }
