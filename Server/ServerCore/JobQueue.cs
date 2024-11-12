@@ -8,6 +8,7 @@ namespace ServerCore
     {
         void Push(Action job);
     }
+
     public class JobQueue : IJobQueue
     {
         Queue<Action> _jobQueue = new Queue<Action>();

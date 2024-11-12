@@ -18,13 +18,13 @@ namespace Server
         
         public void Flush()
         {
-
             foreach (ClientSession s in _session)
                 s.Send(_pendingList);
 
             Console.WriteLine($"Flushed : {_pendingList.Count} items");
             _pendingList.Clear();
         }
+
         public void Broadcast(ClientSession session, string chat)
         {
             S_Chat packet = new S_Chat();
