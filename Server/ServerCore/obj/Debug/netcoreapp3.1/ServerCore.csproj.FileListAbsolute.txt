@@ -21,4 +21,3 @@ C:\Users\rlaal\Desktop\Practice Server\Server\ServerCore\obj\Debug\netcoreapp3.1
 C:\Users\rlaal\Desktop\Practice Server\Server\ServerCore\obj\Debug\netcoreapp3.1\ServerCore.csproj.CoreCompileInputs.cache
 C:\Users\rlaal\Desktop\Practice Server\Server\ServerCore\obj\Debug\netcoreapp3.1\ServerCore.dll
 C:\Users\rlaal\Desktop\Practice Server\Server\ServerCore\obj\Debug\netcoreapp3.1\ServerCore.pdb
-C:\Users\rlaal\Desktop\Practice Server\Server\ServerCore\obj\Debug\netcoreapp3.1\ServerCore.csproj.AssemblyReference.cache

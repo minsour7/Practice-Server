@@ -6,6 +6,7 @@ C:\Users\rlaal\Desktop\Practice Server\Server\Server\bin\Debug\netcoreapp3.1\Ser
 C:\Users\rlaal\Desktop\Practice Server\Server\Server\bin\Debug\netcoreapp3.1\Server.pdb
 C:\Users\rlaal\Desktop\Practice Server\Server\Server\bin\Debug\netcoreapp3.1\ServerCore.dll
 C:\Users\rlaal\Desktop\Practice Server\Server\Server\bin\Debug\netcoreapp3.1\ServerCore.pdb
+C:\Users\rlaal\Desktop\Practice Server\Server\Server\obj\Debug\netcoreapp3.1\Server.csproj.AssemblyReference.cache
 C:\Users\rlaal\Desktop\Practice Server\Server\Server\obj\Debug\netcoreapp3.1\Server.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\rlaal\Desktop\Practice Server\Server\Server\obj\Debug\netcoreapp3.1\Server.AssemblyInfoInputs.cache
 C:\Users\rlaal\Desktop\Practice Server\Server\Server\obj\Debug\netcoreapp3.1\Server.AssemblyInfo.cs
@@ -14,4 +15,3 @@ C:\Users\rlaal\Desktop\Practice Server\Server\Server\obj\Debug\netcoreapp3.1\Ser
 C:\Users\rlaal\Desktop\Practice Server\Server\Server\obj\Debug\netcoreapp3.1\Server.dll
 C:\Users\rlaal\Desktop\Practice Server\Server\Server\obj\Debug\netcoreapp3.1\Server.pdb
 C:\Users\rlaal\Desktop\Practice Server\Server\Server\obj\Debug\netcoreapp3.1\Server.genruntimeconfig.cache
-C:\Users\rlaal\Desktop\Practice Server\Server\Server\obj\Debug\netcoreapp3.1\Server.csproj.AssemblyReference.cache

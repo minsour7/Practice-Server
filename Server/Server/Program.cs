@@ -2,6 +2,7 @@
 using System;
 using System.Net;
 using System.Net.Sockets;
+using System.Threading;
 
 namespace Server
 {
@@ -28,7 +29,8 @@ namespace Server
 
             while (true)
             {
-
+                Room.Push(() => Room.Flush());
+                Thread.Sleep(250);
             }
         }
     }
