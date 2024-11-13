@@ -31,7 +31,7 @@ namespace ServerCore
 
         void Flush()
         {
-            while(true)
+            while (true)
             {
                 Action action = Pop();
                 if (action == null)
@@ -50,7 +50,7 @@ namespace ServerCore
                     _flush = false;
                     return null;
                 }
-               return _jobQueue.Dequeue();
+                return _jobQueue.Dequeue();
             }
         }
     }

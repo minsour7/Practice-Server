@@ -28,7 +28,7 @@ namespace Server
             if (Room != null)
             {
                 GameRoom room = Room;
-                room.Push(()=> room.Leave(this));
+                room.Push(() => room.Leave(this));
                 Room = null;
             }
 
@@ -37,7 +37,7 @@ namespace Server
 
         public override void OnSend(int numOfBytes)
         {
-          //  Console.WriteLine($"Transferred bytes : {numOfBytes}");
+            //  Console.WriteLine($"Transferred bytes : {numOfBytes}");
         }
     }
 }

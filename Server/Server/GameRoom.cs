@@ -15,7 +15,7 @@ namespace Server
         {
             _jobQueue.Push(job);
         }
-        
+
         public void Flush()
         {
             foreach (ClientSession s in _session)
