@@ -50,6 +50,7 @@ namespace ServerCore
                     _flush = false;
                     return null;
                 }
+
                 return _jobQueue.Dequeue();
             }
         }

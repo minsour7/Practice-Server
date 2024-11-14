@@ -98,8 +98,10 @@ class S_Chat : IPacket
         count += sizeof(ushort);
         count += chatLen;
         success &= BitConverter.TryWriteBytes(s, count);
+
         if (success == false)
             return null;
+
         return SendBufferHelper.Close(count);
     }
 }
