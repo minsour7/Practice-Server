@@ -12,6 +12,7 @@ class PacketManager
     PacketManager()
     {
         Register();
+        Console.WriteLine("Register Start");
     }
 
     Dictionary<ushort, Action<PacketSession, ArraySegment<byte>>> _onRecv = new Dictionary<ushort, Action<PacketSession, ArraySegment<byte>>>();
