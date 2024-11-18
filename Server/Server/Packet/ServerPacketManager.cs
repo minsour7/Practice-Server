@@ -6,13 +6,12 @@ class PacketManager
 {
     #region Singleton
     static PacketManager _instance = new PacketManager();
-    public static PacketManager Instance { get { return _instance; } }
+    public static PacketManager Instance{ get { return _instance; } }
     #endregion
 
     PacketManager()
     {
         Register();
-        Console.WriteLine("Register Start");
     }
 
     Dictionary<ushort, Action<PacketSession, ArraySegment<byte>>> _onRecv = new Dictionary<ushort, Action<PacketSession, ArraySegment<byte>>>();
@@ -20,7 +19,7 @@ class PacketManager
 
     public void Register()
     {
-        _onRecv.Add((ushort)PacketID.C_Chat, MakePacket<C_Chat>);
+      _onRecv.Add((ushort)PacketID.C_Chat, MakePacket<C_Chat>);
         _handler.Add((ushort)PacketID.C_Chat, PacketHandler.C_ChatHandler);
 
     }
@@ -39,14 +38,14 @@ class PacketManager
 
     }
 
-    void MakePacket<T>(PacketSession session, ArraySegment<byte> buffer) where T : IPacket, new()
+    void MakePacket<T>(PacketSession session, ArraySegment<byte> buffer) where T:IPacket, new()
     {
         T pkt = new T();
         pkt.Read(buffer);
         Action<PacketSession, IPacket> action = null;
         if (_handler.TryGetValue(pkt.Protocol, out action))
             action.Invoke(session, pkt);
-    }
+    } 
 
 }
 
